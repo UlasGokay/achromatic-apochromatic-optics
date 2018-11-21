@@ -1,3 +1,12 @@
+%Ula? S. Gökay/ ulas.gokay@isikun.edu.tr / OPAM I??k University/Turkey
+
+%make a Schott only database with glass_database_scanner.m)
+% Load the schott database/ take the Vd and dPgF values of the glasses/make
+% a structure/calculate E value for P-V diagram (Kingslake)/construct the
+% struc with names/P/E
+%calculation time increases with number of glasses (size of the for loops)
+%dont save the results on the go, save the mat file after the calculation
+%structure needs adjustments and sorting (done in sorting_2.m)
 clear results
 load database_schott.mat
 m = 1;
